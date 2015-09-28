@@ -1,1 +1,1 @@
-# 
+I wrote this code as a pre-interview screening exercise for one of the big banks in London.
