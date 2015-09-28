@@ -1,8 +1,8 @@
-package cs.orders
+package bank.orders
 
-import cs.orders.OpenOrders.addNewOrder
-import cs.orders.TestValues.{VodaphoneLondon, wowbagger, zarniwoop}
-import cs.values._
+import bank.orders.OpenOrders.addNewOrder
+import bank.orders.TestValues.{VodaphoneLondon, wowbagger, zarniwoop}
+import bank.values._
 import org.mockito.Mockito.mock
 import org.scalatest.{FreeSpec, Matchers}
 

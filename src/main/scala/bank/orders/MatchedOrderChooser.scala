@@ -1,6 +1,6 @@
-package cs.orders
+package bank.orders
 
-import cs.values.{Buy, Order}
+import bank.values.{Buy, Order}
 
 object MatchedOrderChooser {
   def choose(newOrder: Order, matchingOrders: List[Order]): Order = matchingOrders match {

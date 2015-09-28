@@ -1,6 +1,6 @@
-package cs.orders
+package bank.orders
 
-import cs.values._
+import bank.values._
 
 case class OpenOrders(orders: List[Order]) {
   def openInterest(direction: Direction, ric: RIC): Set[OpenInterest] = {

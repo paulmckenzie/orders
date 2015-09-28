@@ -1,6 +1,6 @@
-package cs.orders
+package bank.orders
 
-import cs.values._
+import bank.values._
 import org.scalatest.{FreeSpec, Matchers}
 
 import scala.util.Random

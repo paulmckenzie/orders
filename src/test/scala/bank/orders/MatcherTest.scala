@@ -1,8 +1,8 @@
-package cs.orders
+package bank.orders
 
 
 import org.scalatest.{FreeSpec, Matchers}
-import cs.values._
+import bank.values._
 
 class MatcherTest extends FreeSpec with Matchers {
   "An order" - {

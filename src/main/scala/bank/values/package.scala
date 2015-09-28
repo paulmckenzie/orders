@@ -1,4 +1,4 @@
-package cs
+package bank
 
 package object values {
   type Quantity = Int

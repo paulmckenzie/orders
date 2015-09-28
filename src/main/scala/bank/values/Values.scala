@@ -1,4 +1,4 @@
-package cs.values
+package bank.values
 
 sealed trait Direction
 

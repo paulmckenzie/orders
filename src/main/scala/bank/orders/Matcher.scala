@@ -1,6 +1,6 @@
-package cs.orders
+package bank.orders
 
-import cs.values.{Buy, Order, Sell}
+import bank.values.{Buy, Order, Sell}
 
 object Matcher {
 

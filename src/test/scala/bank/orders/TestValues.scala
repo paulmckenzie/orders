@@ -1,6 +1,6 @@
-package cs.orders
+package bank.orders
 
-import cs.values.{User, RIC}
+import bank.values.{User, RIC}
 
 object TestValues {
   val VodaphoneLondon = RIC("VOD.L")

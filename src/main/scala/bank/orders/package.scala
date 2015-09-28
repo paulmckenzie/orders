@@ -1,6 +1,6 @@
-package cs
+package bank
 
-import cs.values.Order
+import bank.values.Order
 
 package object orders {
   type OrderMatching = (Order, Order) => Boolean

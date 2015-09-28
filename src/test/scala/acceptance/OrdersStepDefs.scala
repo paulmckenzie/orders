@@ -1,9 +1,9 @@
 package acceptance
 
-import cs.orders.MatchedOrderChooser._
-import cs.orders.Matcher._
-import cs.orders._
-import cs.values._
+import bank.orders.MatchedOrderChooser._
+import bank.orders.Matcher._
+import bank.orders._
+import bank.values._
 import cucumber.api.junit.Cucumber
 import cucumber.api.scala.{EN, ScalaDsl}
 import org.junit.runner.RunWith
