@@ -1,0 +1,30 @@
+ext {
+    junitVersion = "4.11"
+    mockitoVersion = "1.9.5"
+    scalaVersion = "2.11"
+    cucumberVersion = "1.2.3"
+
+    scalaMinorVersion = "2.11.2"
+    scalaTestVersion = "2.2.2"
+}
+
+apply plugin: 'scala'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+    compile group: 'org.scala-lang', name: 'scala-library', version: scalaMinorVersion
+
+    testCompile group: 'junit', name: 'junit', version: junitVersion
+    testCompile 'org.scalatest:scalatest_2.11:2.2.2'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: mockitoVersion
+    testCompile group: 'org.mockito', name: 'mockito-all', version: mockitoVersion
+    testCompile group: 'info.cukes', name: "cucumber-scala_$scalaVersion", version: cucumberVersion
+    testCompile group: 'info.cukes', name: 'cucumber-core', version: cucumberVersion
+    testCompile group: 'info.cukes', name: 'cucumber-junit', version: cucumberVersion
+
+
+}
